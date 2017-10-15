@@ -1,6 +1,6 @@
  var str1='tick';
  var str2='tack';
- var n=30;
+ var n=35;
 
  for (var i=0; i<n; i++)
  {
