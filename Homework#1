@@ -1,0 +1,17 @@
+ var str1='tick';
+ var str2='tack';
+ var n=30;
+
+ for (var i=0; i<n; i++)
+ {
+
+ if(i<10 && i%3==0) 
+    {
+        console.log(str1);
+    }
+
+else  if(i>10 && i%5==0) 
+    {
+        console.log(str2);
+    }
+    }
