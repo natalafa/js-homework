@@ -17,4 +17,9 @@ function composer(a, b, c) {
 
 var combo = composer(fn1, fn2, fn3);
 
-console.log(combo(8));
+
+console.assert(combo(9)===1296);
+console.assert(combo(0)===0);
+console.assert(combo(1)===16);
+console.assert(combo(-1)===16);
+console.assert(combo(1.5)===36);
